@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace BE
 {
-    class Host
+    public class Host
     {
+        int HostKey;
+        string PrivateName;
+        string FamilyName;
+        int FhoneNumber;
+        string MailAddress;
+        BankBranch BankBranchDetails;
+        int BankAccountNumber;
+        bool CollectionClearance;
+
+        public override string ToString()
+        {
+            return "";
+        }
     }
 }
